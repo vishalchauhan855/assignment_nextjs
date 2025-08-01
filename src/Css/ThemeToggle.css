@@ -1,0 +1,26 @@
+body.light {
+  --bg: #ffffff;
+  --text: #111111;
+  --nav-bg: #f8f9fa;
+  --nav-text: #000000;
+  --accent: #007bff;
+  --border: #dddddd;
+  --shadow: rgba(0, 0, 0, 0.05);
+}
+
+body.dark {
+  --bg: #1e1e1e;
+  --text: #f1f1f1;
+  --nav-bg: #2a2a2a;
+  --nav-text: #ffffff;
+  --accent: #1e90ff;
+  --border: #444;
+  --shadow: rgba(255, 255, 255, 0.08);
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
